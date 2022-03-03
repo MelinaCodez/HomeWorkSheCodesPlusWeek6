@@ -1,0 +1,62 @@
+.body {
+  background: white;
+  border-color: blue;
+  padding: 8px;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.country,
+.temperature,
+.units {
+  display: block;
+  text-align: left;
+  text-transform: capitalize;
+  color: rgb(17, 17, 182);
+  font-size: 35px;
+  
+}
+.currentdate {
+  color: rgb(118, 118, 221);
+  font-size: 20px;
+  display: block;
+  text-align: left;
+}
+.futuros,
+.grados {
+  color: cadetblue;
+  text-align: center;
+  display: inline;
+}
+
+.state {
+  font-size: 20px;
+  margin-left: 10px;
+  color: cornflowerblue;
+}
+.emojis {
+  font-size: 40px;
+  display: inline;
+  text-align: center;
+}
+.windy {
+  font-size: 40px;
+  display: block;
+  margin-left: 10px;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  margin: 18px 0 60px 10px;
+  position: relative;
+  color: darkgrey;
+}
+.search {
+ position: right;
+  left: 280px;
+  top: 125px;
+  background-color: rgb(241, 241, 248);
+  padding: 4px;
+  padding-right: 4px;
+}
